@@ -27,6 +27,9 @@ References:
 
 ## Version 1.3
 
+### Note on Environment
+
+It's important to mention that this code was developed using Google Colab instead of Kaggle, so there might be some differences in import styles or environment configurations between the two platforms. Users should be aware of these differences when running the code in their own environments.
 
 ### Evaluation of Results
 
