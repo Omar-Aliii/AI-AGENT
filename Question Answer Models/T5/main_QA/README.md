@@ -53,9 +53,9 @@ On the other hand, Jaccard similarity, also known as the Jaccard index or Jaccar
 Reference:
 - Jaccard similarity coefficient. (n.d.). In Wikipedia. Retrieved January 29, 2024, from https://en.wikipedia.org/wiki/Jaccard_index
 
-## Version 1.4
+## Version 2.0
 
-In version 1.4, we utilized the dataset SQuAD v1 (Stanford Question Answering Dataset). SQuAD v1 is a widely used benchmark dataset for machine reading comprehension tasks, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the model is required to provide the exact answer spans within the text. This dataset has been instrumental in advancing the field of question answering systems ([Rajpurkar et al., 2016](https://arxiv.org/abs/1606.05250)).
+In version 2.0, we utilized the dataset SQuAD v1 (Stanford Question Answering Dataset). SQuAD v1 is a widely used benchmark dataset for machine reading comprehension tasks, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the model is required to provide the exact answer spans within the text. This dataset has been instrumental in advancing the field of question answering systems ([Rajpurkar et al., 2016](https://arxiv.org/abs/1606.05250)).
 
 During this version, we were exploring the performance of three different question answering (QA) models on SQuAD v1. Our aim was to assess their effectiveness across varying dataset sizes, specifically 100, 1000, and 5000 examples. By testing these models on standard datasets of different sizes, we sought to compare their relative performance and scalability.
 
