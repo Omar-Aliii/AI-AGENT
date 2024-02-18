@@ -59,12 +59,9 @@ In version 2.0, we utilized the dataset SQuAD v1 (Stanford Question Answering Da
 
 During this version, we were exploring the performance of three different question answering (QA) models on SQuAD v1. Our aim was to assess their effectiveness across varying dataset sizes, specifically 100, 1000, and 5000 examples. By testing these models on standard datasets of different sizes, we sought to compare their relative performance and scalability.
 
-In our experimentation, we opted to utilize the T5-small model instead of T5-base. This decision was based on the understanding that smaller models often demonstrate better performance on smaller datasets. Research has shown that smaller models can achieve competitive performance while being computationally more efficient, particularly on tasks with limited training data ([Pham et al., 2020](https://arxiv.org/abs/2002.08910)).
-
 Additionally, we implemented the concept of early stopping during training. Early stopping is a regularization technique used in machine learning to prevent overfitting. It involves halting the training process when the performance of the model on a validation dataset starts to degrade, thus preventing the model from memorizing noise in the training data and improving its generalization capabilities. Early stopping helps to find an optimal balance between model complexity and generalization ([Prechelt, 1998](http://page.mi.fu-berlin.de/prechelt/Biblio/stop_tricks1997.pdf)).
 
 Reference:
 
 - Rajpurkar, P., Zhang, J., Lopyrev, K., & Liang, P. (2016). SQuAD: 100,000+ Questions for Machine Comprehension of Text. In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP).
-- Pham, Q.-V., Nguyen, T., & Tran, T. (2020). Efficient Transformers: A Survey. arXiv preprint arXiv:2002.08910.
 - Prechelt, L. (1998). Early stopping-but when?. In Neural Networks: Tricks of the Trade (pp. 55-69). Springer.
