@@ -18,7 +18,7 @@ Following fine-tuning, rigorous evaluation was conducted on the validation subse
 
 
 
-# Version 2.0
+# Version 1.2
 
 ## Evaluating Model Performance on SQuAD Dataset
 
@@ -33,7 +33,7 @@ Version 2.0 focused on testing the model's performance using the SQuAD dataset i
 Each of these approaches provided insights into the model's ability to understand and generate answers to questions, both in contexts it was directly provided and in scenarios where it needed to infer context or handle rephrased queries.
 
 
-# Version 3.0
+# Version 1.3
 
 ## Incorporating Early Stopping and Semantic Answer Similarity Metrics
 
@@ -48,7 +48,7 @@ Additionally, extensive research was conducted to identify and implement **evalu
 - Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, and Yoav Artzi. (2020). [BERTScore: Evaluating Text Generation with BERT.](https://arxiv.org/abs/2004.09602) arXiv preprint arXiv:2004.09602.
 
 
-# Version 4.0
+# Version 2
 
 ## Fine-tuning on Different Dataset Subsets and Utilizing TensorBoard for Loss Visualization
 
