@@ -1,24 +1,21 @@
-# Version 1: Training with Gradient's Base Model (Llama 2 pretrained model):
+# Finetuning the 13B Parameter LLAMA 2 Model:
+This repository contains instructions for finetuning a 13B parameter LLAMA 2 model. The finetuning process was conducted on the Gradient platform, using two distinct approaches: Version 1, which utilized three sample inputs provided in the code, and Version 2, which employed a custom CSV dataset provided by the user.
 
-## Instructions:
-1.**Install the required packages: Ensure you have installed the necessary Python packages using the command provided above.
+# Version 1: Training with samples:
 
-2.Set your environment variables: Use your API access token and workspace ID provided by Gradient to set environment variables. This step is crucial for accessing Gradient's resources.
+Version 1 training with samples given in the code involves fine-tuning a pre-trained 13B parameter Llama 2 model using a small set of samples that are directly provided within the code itself. This method is particularly useful when labeled data is scarce or when there's a need to quickly prototype and test the model on a specific task without relying on external datasets
 
-3.Run the provided code: Execute the provided code to start training with Gradient's base model. This version uses the Llama 2 pretrained model, also known as nous-hermes2, and fine-tunes it with custom text samples.
+# Version 2: Training with custom dataset:
 
-# Version 2: Training with Custom Dataset:
+Version 2 training involves fine-tuning the pre-trained 13B parameter Llama 2 model using a custom dataset, typically provided in the form of a CSV file. This method allows for more customization and adaptation of the model to specific tasks or domains where labeled data is available.
 
-## Instructions:
-1.Install the required packages: Similar to Version 1, ensure you have installed the necessary Python packages using the provided command.
-
-2.Set your environment variables: Use your API access token and workspace ID provided by Gradient to set environment variables, enabling access to Gradient's resources.
-
-3.Prepare your custom dataset: Organize your data in a CSV format with 'inputs' and 'label' columns. This dataset will be used for training the model on specific tasks.
-
-4.Run the provided code: Execute the provided code, replacing 'characters.csv' with the filename of your custom dataset. This version trains the model on your dataset and fine-tunes it accordingly.
 
 ## Notes:
--Base Model: The base model used in Version 1 is the Llama 2 pretrained model, also known as nous-hermes2. It serves as the starting point for fine-tuning with custom data.
+-Base Model: The base model used in this test is the 13B Parameter LLAMA 2 Model, also known as nous-hermes2. It serves as the starting point for fine-tuning with custom data. Although, there are other models on the site if needed.
 -Custom Dataset: Ensure your custom dataset is properly formatted with text inputs and corresponding labels. This is essential for effective training.
--Batch Size and Epochs: Adjust the batch size and number of epochs according to your GPU memory and training requirements. Experiment with different configurations to achieve optimal results.
+-Epochs: Adjust the number of epochs according to your GPU memory and training requirements. Experiment with different configurations to achieve optimal results.
+
+## Additional Resources:
+Gradient: https://gradient.ai/
+Custom Dataset: characters
+YouTube Video Tutorial: https://youtu.be/74NSDMvYZ9Y
