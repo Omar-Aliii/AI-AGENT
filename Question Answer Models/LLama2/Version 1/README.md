@@ -46,4 +46,4 @@ Refrence: Zhang, T. K. (2019). Bertscore: Evaluating text generation with bert.
 -Evaluation Metrics: For each generated question-answer pair, Recall, Precision, and F1 score are calculated. The average of these scores is then evaluated.Recall, Precision, and F1 score are standard metrics used to evaluate the performance of question answering systems. Recall measures the proportion of relevant items that were retrieved, Precision measures the proportion of retrieved items that are relevant, and F1 score is the harmonic mean of Recall and Precision, providing a balanced measure of performance.
 
 ## Note:
-As my resources changed, you might see different results from the codes provided, and if you use Colab or Kaggle as your environment, you might crash because of the enormous computational power required by such model.
+As my resources changed, you might see different results from the codes provided, and if you use free version Colab or Kaggle as your environment, you might crash because of the enormous computational power required by such model.
