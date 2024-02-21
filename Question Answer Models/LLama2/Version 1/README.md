@@ -5,7 +5,7 @@
 
 -Fine-tuning: Fine-tuning involves adjusting the parameters of the pretrained Llama 2 model to better fit the specific requirements of the task at hand. This process typically involves feeding the dataset through the model, computing gradients, and updating the model's parameters using techniques like backpropagation.
 
--Quantized Low Rank Adaptation (QLORA): QLORA is a technique used to adapt the pretrained Llama 2 model efficiently. It combines quantization, : a process that involves reducing the precision of the model's weights and activations to lower bit-width representations, thereby reducing memory footprint and computational overhead (Jacob, 2018). with low-rank adaptaion, 
+-Quantized Low Rank Adaptation (QLORA): QLORA is a technique used to adapt the pretrained Llama 2 model efficiently. It combines quantization: a process that involves reducing the precision of the model's weights and activations to lower bit-width representations, thereby reducing memory footprint and computational overhead (Jacob, 2018). with low-rank adaptaion, 
 with Low-Rank Adaptation (LoRA): is a technique used to compress and adapt large neural network models, such as Llama 2, to make them more suitable for deployment in resource-constrained environments like AI call centers. By injecting trainable rank decomposition matrices into each layer of the Transformer architecture and freezing the pretrained model weights, Low-Rank Adaptation, or LoRA, significantly reduces the number of trainable parameters for jobs that come after (Hu, 2021) . In addition, reducing the model's rank, LoRA reduces computational complexity and memory requirements without significantly sacrificing performance.
 
 References: 
