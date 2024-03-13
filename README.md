@@ -24,3 +24,11 @@ link
 ## Acknowledgement
 
 In July 2024.
+
+sh
+conda create --name name_enviroment python=3.10
+conda activate name_enviroment
+conda install cudatoolkit -c anaconda -y
+conda install pytorch-cuda=12.1 -c pytorch -c nvidia -y
+conda install pytorch torchvision torchaudio -c pytorch -c nvidia -y
+
