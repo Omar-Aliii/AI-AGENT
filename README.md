@@ -1,6 +1,6 @@
 # C.A.S.S.I.E
 ## Download the project files
-Refer to this [link](https://github.com/Omar-Aliii/AI-AGENT/releases/tag/Beta)
+Refer to this [link](https://github.com/Omar-Aliii/AI-AGENT/releases) and download the latest version.
 ## Environment Setup
 
 [![N|Solid](https://fgnt.github.io/python_crashkurs_doc/_images/logo-dark.png)](https://nodesource.com/products/nsolid)
