@@ -40,4 +40,4 @@ conda install pytorch-cuda=12.1 -c pytorch -c nvidia -y
 ```sh
 conda install pytorch torchvision torchaudio -c pytorch -c nvidia -y
 ```
-
+<img src="https://djeqr6to3dedg.cloudfront.net/repo-logos/ollama/ollama/live/logo-1701412810306.png" alt="alt text" width="250">
