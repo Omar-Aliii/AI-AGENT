@@ -31,8 +31,6 @@ conda install pytorch torchvision torchaudio -c pytorch -c nvidia -y
 
 ## _Ollama_
 <img src="https://bookface-images.s3.amazonaws.com/logos/ee60f430e8cb6ae769306860a9c03b2672e0eaf2.png" alt="alt text" width="250">
-[![N|Solid](https://kids.kiddle.co/images/thumb/8/8e/Guanaco_09.24.jpg/250px-Guanaco_09.24.jpg)](https://nodesource.com/products/nsolid)
-
 Ollama is an open-source application designed to run, create, and share large language models (LLMs) locally on MacOS, Linux and Windows systems. It simplifies the process of setting up and running LLMs by providing a command-line interface and supporting various models like Llama2, Mistral, and Phi-2. Ollama aims to offer a straightforward setup, cost-effectiveness, privacy, and versatility, making it accessible for developers, data scientists, and tech enthusiasts to leverage the power of LLMs without relying on cloud services 
 [Install](https://ollama.com/download) - Ollama
 
@@ -46,15 +44,19 @@ Faster-Whisper is a library designed to significantly speed up the transcription
 ```sh
 Pip install faster_whisper
 ```
-## _R.A.G_
+## R.A.G
+
 Retrieval-Augmented Generation (RAG) is a technique that enhances the capabilities of Large Language Models (LLMs) by integrating external data sources to provide more accurate and contextually relevant responses. It works by embedding user queries into vectors, retrieving relevant data from a database, and then feeding this data back into the LLM to generate responses. This process allows RAG to offer detailed answers to specific questions, fill knowledge gaps, and provide citations for its responses, thereby increasing trust and reliability in AI-generated content.
 
+This command installs the LangChain library.
 ```sh
 pip install langchain
 ```
+This command installs the PyPDF library.
 ```sh
 pip install pypdf
 ```
+This command pulls the nomic-embed-tex module.
 ```sh
 ollama pull nomic-embed-tex
 ```
