@@ -27,9 +27,17 @@ In July 2024.
 
 ```sh
 conda create --name name_enviroment python=3.10
+```
+```sh
 conda activate name_enviroment
+```
+```sh
 conda install cudatoolkit -c anaconda -y
+```
+```sh
 conda install pytorch-cuda=12.1 -c pytorch -c nvidia -y
+```
+```sh
 conda install pytorch torchvision torchaudio -c pytorch -c nvidia -y
 ```
 
