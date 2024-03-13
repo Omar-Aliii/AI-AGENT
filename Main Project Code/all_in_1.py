@@ -31,7 +31,7 @@ tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2", gpu=True)
 # Initialize Pygame mixer
 pygame.mixer.init()
 # Initialize the RAG model
-model_local = ChatOllama(model="cassie")
+model_local = ChatOllama(model="llama2")
 
 # Load data from a local PDF file
 urls = [
